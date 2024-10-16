@@ -131,12 +131,12 @@ export function LandingPageComponent() {
               <h1 className="text-4xl md:text-6xl font-bold">Welcome to AMFI DeFi Protocol</h1>
               <p className="text-xl">Revolutionizing decentralized finance with cutting-edge technology</p>
               <div className='flex flex-col gap-4 items-center'>
-                <Link href="">
+                <Link href="https://amfiuser.vercel.app/" target='_blank'>
                   <Button className='max-w-max self-center' size="lg">
                     Get Started as User<ChevronRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
-                <Link href="">
+                <Link href="https://amfiprotocol.vercel.app/" target='_blank'>
                   <Button className='max-w-max self-center' size="lg">
                     Get Started as Protocol <ChevronRight className="ml-2 h-4 w-4" />
                   </Button>
