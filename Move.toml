@@ -1,0 +1,16 @@
+[package]
+name = "Amfi"
+version = "1.0.0"
+authors = ["Taiwo Triumphant"]
+upgrade_policy="compatible"
+
+
+[addresses]
+amfi = "0x0dc353a97ad96b4b60e8048d288c7480f3f12cf8f0826a50d06c63c18b81d236"
+std = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "aptos-cli-v2.0.2" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib", rev = "aptos-cli-v2.0.2" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token", rev = "aptos-cli-v2.0.2" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects", rev = "aptos-cli-v2.0.2" }
