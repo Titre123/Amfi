@@ -64,7 +64,7 @@ export default function CreateCampaignPage() {
 
   useEffect(() => {
     const storedData = Cookies.get('campaignData');
-    console.log(JSON.parse(storedData))
+    console.log(JSON.parse(storedData || ''))
     if (storedData) {
       setCampaignData(JSON.parse(storedData));
     }
